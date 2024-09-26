@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+.one{
+    margin: 90px;
+    background-color: aquamarine;
+    padding: 40px;
+}
+
+.two{
+    margin: 40px;
+    height: 300px;
+    width: 300px;
+    border: 8px solid coral;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+img{
+    margin-left: -80px ;
+    height: 100%;
+}

@@ -1,0 +1,37 @@
+body{
+    background-color: #808080;
+}
+.html
+{
+    color: orangered;
+}
+.css{
+    color: blue;
+}
+.Java{
+    color: yellow;
+}
+
+ul :nth-child(4)
+{
+    color: rgb(3, 178, 161);
+}
+ 
+ul :nth-child(5)
+{
+    color: aqua
+}
+
+ul :nth-child(6)
+{
+    color: purple;
+}
+span{
+
+    font-size: 30px;
+    font-weight: bolder;
+}
+span:hover
+{
+    color:aqua;
+}

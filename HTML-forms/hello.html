@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+    </style>
+<body>
+   <button class="btn">change</button>
+</body>
+<script>
+    let body=document.getElementsByTagName("body")[0];
+    let btn=document.querySelector(".btn");
+    btn.addEventListener('click',function(){
+       
+        body.style.backgroundColor="white";
+        
+    })
+</script>
+</html>
