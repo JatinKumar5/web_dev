@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    font-size: 15px;
+    font-family:  "Lexend", sans-serif;
+
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container{
+    margin: 2rem;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 910px;
+
+}
+
+.card{
+    padding: 2rem;
+    width: 100%;
+}
+
+.card p{
+    opacity: 0.7;
+    line-height: 1.5;
+}
+.box1{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+}
+
+.box2{
+    background-color: hsl(184, 100%, 22%) ;
+    color: white;
+}
+.box3{
+    background-color:  hsl(179, 100%, 13%);
+    color: white;
+}
+
+a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 8px;
+    border-radius:20px ;
+    margin-top: 60px;
+}
